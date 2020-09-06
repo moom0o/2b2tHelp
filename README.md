@@ -1,2 +1,21 @@
 # 2b2tHelp
-minecraft customizable help plugin
+minecraft customizable help plugin, also includes /kill command
+<img src="https://bstats.org/signatures/bukkit/2b2tHelp.svg">
+## Config
+```
+help:
+  - "&7---------------------------------------------"
+  - "&3/kill - die"
+  - "&3/w - whisper"
+  - "&3/r - reply"
+  - "&3/togglechat - Toggle chat messages."
+  - "&3/toggledeathmsg - Toggle all death messages."
+  - "&3/toggletells - Toggle direct messages."
+  - "&3/ignore - Ignore a players messages"
+  - "&3/stats - World size and amount of players that joined."
+  - "&3/tps - TPS of server."
+  - "&7---------------------------------------------"
+
+# enable /kill command
+killcommand: false
+```
